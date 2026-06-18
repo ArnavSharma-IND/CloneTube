@@ -1,0 +1,9 @@
+{
+  "name": "CloneTube",
+  "description": "A modern, responsive YouTube-inspired video streaming platform featuring content discovery, creator channels, video management, interactive comments, and AI-powered summaries, recommendations, and tag generation powered by Gemini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
