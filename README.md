@@ -1,35 +1,77 @@
-# CloneTube - Modern AI-Powered Video Streaming Ecosystem 🚀
+# CloneTube 📺
 
-CloneTube is a high-fidelity, production-ready, fully functional video streaming clone designed under React 19, Express.js, TypeScript, and Tailwind CSS. The system integrates six intelligent server-side **Gemini AI Pipelines** mapping advanced content discovery, real-time metadata expansion, and moderation controls.
-
----
-
-## 🎨 Creative Aesthetics & Architecture
-
-- **Visual Frame & Motion**: Configured in a modern cinematic aesthetic using dark theme carbon offsets (`#0B0B0B`), crisp typography pairing (**Inter** headings paired with **JetBrains Mono** data lines), responsive side navigation drawers, custom glassmorphism overlays, and smooth layout entry transitions.
-- **Client Routing & Storage**: Incorporates a self-sufficient custom Client Routing Context and standard Auth Context backed by client-side local states and server-side persistent SQLite/JSON storage written directly to disk. Fully insulated form React 19 routing compatibility bottlenecks.
-- **Interactive Multimedia Frame**: High-fidelity HTML5 streaming players, custom playback speed multipliers, slider-based timeline seeks, relative watch logging, and vertical reels (Reels/Shorts viewer) supporting reactive ratings, nesting comments, and audio mute triggers.
+**CloneTube** is a modern video streaming platform inspired by YouTube, built to provide a seamless content discovery and viewing experience. Users can explore videos, upload content, interact with creators, and enjoy a clean, responsive interface designed for all devices.
 
 ---
 
-## ⚡ Built-In Gemini AI Features
+## 🚀 Features
 
-CloneTube features standard server-side mock handles backed by standard **Google GenAI API** SDK parameters:
-
-1. **Gemini Semantic Voice Search** (`/api/gemini/parse-voice`): Click the **Mic** icon inside the Header to enter a conceptual thought (e.g. *"I want some spicy low-tempo lo-fi coding tracks"*). Gemini parses semantic intents, extract subjects/moods, and redirects search filters.
-2. **Personalized Spark Recommendations** (`/api/gemini/recommendations`): Based on subscribers' subscriptions and watch logs, Gemini dynamically pushes three tailored recommendations at the top feed with user-friendly explanations.
-3. **Automated Video Summaries** (`/api/gemini/summarize`): While watch a stream, click the **AI Summarize** button to stream high-quality markdown summaries mapping key takeaways and sequential chronological timestamps.
-4. **Viral Title & SEO Generator** (`/api/gemini/generate-metadata`): Inside the Upload dialog, click **Tune with AI** and enter a raw thought. Gemini suggests a viral hook, rich formatted description text, and dynamic search tags.
-5. **AI Content Moderation Guard** (`/api/gemini/moderate`): Toggle the **AI Toxicity Guard** in Comments! If comments trigger vulgarity or harmful language, Gemini flags them as toxic content, shielding creators from harassment.
-6. **AI Metadata Refactoring**: Seamlessly refactor specs and SEO criteria from the Creator Studio directly on edit.
+* 🔐 User Authentication & Authorization
+* 🎥 Video Upload & Streaming
+* 🔍 Smart Video Search
+* 🏠 Personalized Home Feed
+* 👍 Like & Dislike System
+* 💬 Comment & Reply System
+* 📺 Channel Creation & Management
+* 🔔 Subscription & Notifications
+* 📈 Trending Videos Section
+* 🕒 Watch History
+* ❤️ Liked Videos Collection
+* 📁 Playlist Management
+* 🌙 Dark & Light Mode
+* 📱 Fully Responsive Design
 
 ---
 
-## 🛠️ Quick Trial User Passwords
+## 🛠️ Tech Stack
 
-For ease of review, you can trigger visual data modifications instantly using our **1-Click Quick Login** drawer at the top of the header:
+### Frontend
 
-- **Chef Elite** (User Session: `chefelite` | Channel profile: `Chef Elite` cooking specialized tutorials)
-- **TechNexus AI** (User Session: `technexus` | Cosmic and future computing specs)
-- **Cosmic Wanderer** (User Session: `cosmic` | Space and planetary science catalog)
-- **Lofi Beats Studio** (User Session: `lofibeats` | Warm background code music)
+* React.js
+* Vite
+* Tailwind CSS
+* React Router DOM
+* Axios
+* Framer Motion
+
+### Backend
+
+* Node.js
+* Express.js
+* JWT Authentication
+* bcrypt.js
+* Multer
+
+### Database
+
+* MongoDB *(Optional)*
+* SQLite / JSON Storage *(Student Project Friendly)*
+
+### Storage
+
+* Cloudinary / Local Storage
+
+---
+
+## 🌟 Future Improvements
+
+* 🎬 Shorts/Reels Feature
+* 🔴 Live Streaming
+* 🤖 AI Video Recommendations
+* 🎤 Voice Search
+* 📥 Video Downloads
+* 📊 Creator Analytics Dashboard
+* 💰 Monetization Features
+* 🌐 Multi-Language Support
+* 🎨 Advanced Channel Customization
+
+---
+
+## 👨‍💻 Developer
+
+**Arnav Sharma**
+B.Tech CSE (AI) | Full Stack Developer | AI Enthusiast
+
+---
+
+⭐ **If you like this project, consider giving it a star on GitHub!**
